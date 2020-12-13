@@ -41,7 +41,7 @@ public class MainFrame extends JFrame {
         setSize(WIDTH, HEIGHT);
         Toolkit kit = Toolkit.getDefaultToolkit();
         setLocation((kit.getScreenSize().width - WIDTH) / 2,
-                (kit.getScreenSize().height - HEIGHT) / 2);
+                (kit.getScreenSize().height - HEIGHT) / 2); //fsfs
         setExtendedState(MAXIMIZED_BOTH);
 
         JMenuBar menuBar = new JMenuBar();

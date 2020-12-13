@@ -30,7 +30,7 @@ public class MainFrame extends JFrame {
     private JCheckBoxMenuItem showAxisMenuItem;
     private JCheckBoxMenuItem showMarkersMenuItem;
     private JCheckBoxMenuItem showIntGraphicsMenuItem;
-    // Компонент-отображатель графика
+
     private GraphicsDisplay display = new GraphicsDisplay();
    
     private boolean fileLoaded = false;
@@ -40,7 +40,7 @@ public class MainFrame extends JFrame {
         super("Построение графиков функций на основе заранее подготовленных файлов");
         setSize(WIDTH, HEIGHT);
         Toolkit kit = Toolkit.getDefaultToolkit();
-        setLocation((kit.getScreenSize().width - WIDTH) / 2,
+        setLocation((kit.getScreenSize().width - WIDTH) / 2, 
                 (kit.getScreenSize().height - HEIGHT) / 2); 
         setExtendedState(MAXIMIZED_BOTH);
 

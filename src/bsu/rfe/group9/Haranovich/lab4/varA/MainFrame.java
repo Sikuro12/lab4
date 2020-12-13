@@ -32,7 +32,7 @@ public class MainFrame extends JFrame {
     private JCheckBoxMenuItem showIntGraphicsMenuItem;
     // Компонент-отображатель графика
     private GraphicsDisplay display = new GraphicsDisplay();
-    // Флаг, указывающий на загруженность данных графика
+   
     private boolean fileLoaded = false;
 
     public MainFrame() {
@@ -41,7 +41,7 @@ public class MainFrame extends JFrame {
         setSize(WIDTH, HEIGHT);
         Toolkit kit = Toolkit.getDefaultToolkit();
         setLocation((kit.getScreenSize().width - WIDTH) / 2,
-                (kit.getScreenSize().height - HEIGHT) / 2); //fsfs
+                (kit.getScreenSize().height - HEIGHT) / 2); 
         setExtendedState(MAXIMIZED_BOTH);
 
         JMenuBar menuBar = new JMenuBar();
